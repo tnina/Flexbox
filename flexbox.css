@@ -1,0 +1,39 @@
+.flex-container {
+  display: block; /* flex, inline-flex */
+  flex-direction: row; /* row, row-reverse, column, column-reverse */
+  flex-wrap: nowrap; /* nowrap, wrap, wrap-reverse */
+  flex-flow: row nowrap; /* shorthand for flex-direction and flex-wrap */
+  justify-content: flex-start; /* flex-start, flex-end, center, space-between, space-around */
+  align-items: stretch; /* flex-start, flex-end, center, baseline, stretch */
+  align-content: stretch; /* flex-start, flex-end, center, space-between, space-around, stretch */
+}
+
+.flex-item {
+  order: 0; /* number */
+  flex-grow: 0; /* number */
+  flex-shrink: 1; /* number */
+  flex-basis: auto; /* length, auto, main-size */
+  flex: 0 1 auto; /* shorthand for flex-grow, flex-shrink, and flex-basis */
+  align-self: auto; /* auto, flex-start, flex-end, center, baseline, stretch */
+}
+
+
+
+
+
+/* Visual styling */
+.flex-item {
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  background: grey;
+  color: white;
+  font-size: 5em;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+/*
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes
+*/
